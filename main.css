@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #5BA3D6;
+}
+
+.container{
+	background-color: #5BA3D6;
+	text-transform: uppercase;
+	font-family: 'helvetica neue';
+	color: white;
+	line-height: 1.4em;
+	font-size: 12px;
+}
+
+.left, .right, .middle{
+	padding: 0 4%;
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+}
+
+label{
+	width: 100%;
+	margin-top: 25px;
+	padding-bottom: 5px;
+	display: block;
+}
+
+textarea{
+	width: 100%;
+	height: 40px;
+	border: solid white;
+	background-color: #5BA3D6;
+	color: white;
+	padding: 5px 10px;
+	display: block;
+	vertical-align: top;
+	font-size: 16px;
+}
+
+input{
+	width: 100%;
+	height: 40px;
+	border: solid white;
+	background-color: #5BA3D6;
+	color: white;
+	padding: 5px 10px;
+	display: block;
+	vertical-align: top;
+	font-size: 16px;
+}
+
+#bio{
+	height:120px;
+	margin-bottom: 25px;
+}
+
+#comments{
+	height:120px;
+	margin-bottom: 25px;
+}
+
+select{
+	width: 100%;
+	height: 40px;
+	border: solid white;
+	background-color: #5BA3D6;
+	color: white;
+	border-radius: 0;
+	padding: 5px 10px;
+	margin:0;
+	display: block;
+	font-size: 16px;
+}
+
+#affiliations{
+	height: 120px;
+}
+
+::-webkit-input-placeholder {
+   color: #2A6A98;
+}
+
+@media screen and (max-width: 990px){
+	.left,.right,.middle{
+		width: 100%;
+	}
+}
+input:focus{
+		border: solid #2A6A98;
+		outline: 0;
+	}
+select:focus{
+		border: solid #2A6A98;
+		outline: 0;
+}
+textarea:focus{
+		border: solid #2A6A98;
+		outline: 0;
+}
